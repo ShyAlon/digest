@@ -1,0 +1,9 @@
+python -m venv .venv
+source .venv/bin/activate
+export SLACK_BOT_TOKEN=xoxb-1422030608644-7284571152564-RTT4pxfF4LJmbcyExbWdXUvh
+export SLACK_APP_TOKEN=xapp-1-A078NN8A6RX-7294762556993-84197c4a80043ed5b9b370a411d4b213b8f51fdf3d941ebd86313a949621b618
+pip install slack_bolt
+pip install pip-system-certs
+(Run in the python folder) Install Certificates.command
+pip install openai
+export OPENAI_API_KEY=sk-proj-cAq8yz5q7DGP1dYsnVrpT3BlbkFJpGQ8tUZcpHGLyo4JgCNV
